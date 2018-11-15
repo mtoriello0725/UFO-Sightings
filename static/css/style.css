@@ -83,6 +83,11 @@ select {
   min-width: 70px;
 }
 
+/*Modified all td so sorting icon fits in table header*/
+td {
+  min-width: 75px;
+}
+
 .loader {
   margin-top: 50px;
 }
