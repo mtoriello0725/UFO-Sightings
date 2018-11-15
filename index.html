@@ -60,11 +60,21 @@
             <table id="ufo-table" class="table table-striped">
               <thead>
                 <tr>
-                  <th class="table-head">Date</th>
-                  <th class="table-head" onclick="sortTable()" style="cursor:pointer">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
+                  <th class="table-head" onclick="sortTable('datetime')" style="cursor:pointer">Date
+                    <span class="glyphicon glyphicon-sort"></span>
+                  </th>
+                  <th class="table-head" onclick="sortTable('city')" style="cursor:pointer">City
+                    <span class="glyphicon glyphicon-sort"></span>
+                  </th>
+                  <th class="table-head" onclick="sortTable('state')" style="cursor:pointer">State
+                    <span class="glyphicon glyphicon-sort"></span>
+                  </th>
+                  <th class="table-head" onclick="sortTable('country')" style="cursor:pointer">Country
+                    <span class="glyphicon glyphicon-sort"></span>
+                  </th>
+                  <th class="table-head" onclick="sortTable('shape')" style="cursor:pointer">Shape
+                    <span class="glyphicon glyphicon-sort"></span>
+                  </th>
                   <th class="table-head">Duration</th>
                   <th class="table-head">Comments</th>
                 </tr>
